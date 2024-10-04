@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow1</title>
+    
+
+    <style>
+        .Slideshow, .Frame{
+            position: relative;
+            height: 412px;
+            width: 412px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+        .slide{
+            width: 100%;
+            overflow: hidden;
+            position: absolute;
+            height: 100%;
+            left: 0%;
+            top: 0%;
+            opacity: 0;
+            transition: opacity 5s;
+        }
+        .show:checked + .slide{
+            opacity: 1;
+        }
+        .button{
+            display: inline-block;
+        }
+        .btn-label{
+            background-color: black;
+            cursor: pointer;
+            width: 1rem;
+            height: 1rem;
+            padding: 1rem;
+            font: 1rem;
+            text-align: center;
+            border-radius: .5rem;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <div class = "Frame">
+    <h1>Roses</h1>
+    <div class = "Slideshow">
+        <input type="radio" name="button" class="show" id="one" checked="checked">
+            <div class = "slide"><a target="_blank" title="Pink Flower" href="Image1.jpg">
+                <img width="500px" alt="Pink Flower Image" src="Image1.jpg"> </a>
+            </div>
+        <input type="radio" name="button" class="show" id="two">
+            <div class = "slide"><a target="_blank" title="White Flower" href="Image2.jpg">
+                <img width="500px" alt="White Flower Image" src="Image2.jpg"> </a>
+            </div>
+        <input type="radio" name="button" class="show" id="three">
+            <div class = "slide"><a target="_blank" title="Track" href="Image1.jpg">
+                <img width="500px" alt="Walking track Image" src="Image1.jpg"> </a>
+            </div>
+    </div>
+    <ul>
+        <li class = "button"><label class="btn-label" for="one">1</label></li>
+        <li class = "button"><label class="btn-label" for="two">2</label></li>
+        <li class = "button"><label class="btn-label" for="three">3</label></li>
+    </ul>
+    </div>
+
+</body>
+</html>

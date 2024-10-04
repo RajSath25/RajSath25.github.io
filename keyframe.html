@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            padding: 15px;
+            font-family: sans-serif;
+            font-size: 25px;
+            text-align: center;
+            border-radius: 60px;
+            animation: shape-converter 3s infinite;
+        }
+        @keyframes shape-converter {
+            0% {background-color: blue;}
+            50% {background-color: aqua; border-radius: 0px; transform: translate(175px);}
+            100% {background-color: blue;}
+        }
+    </style>
+</head>
+<body>
+    <div class = "box">
+        <p>Animation Testing</p>
+    </div>
+</body>
+</html>

@@ -1,41 +1,66 @@
-<!--The HTML% doctype declaration is very simple-->
-<!doctype HTML>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title> HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj's Portfolio</title>
+    <link rel="stylesheet" href="Assignment1CSS.css">
 
-    <link rel="stylesheet" type ="text/css" href="style1.css">
+    <style>
+        .logo {
+            width: 5%;
+            
+        }
+        .centered{
+            position: absolute;
+            top: 3%;
+            left: 8.2%;
+            font-size: 1rem;
+        }
+        .homeImage {
+            width: 10%;
+        }
+
+    </style>
 </head>
-
 <body>
-    <div id = "wrapper">
-        <div id = "banner">
-            <h1>Website for INFR3120</h1>
-        </div>
+    <header id = "header">
+        <div class = "header container">
+            <div class = "navBar">
+                    <a href="#home" class = "btn">Home</a>
+                    <a href="aboutMe.html" class = "btn">About Me</a>
 
-        <div id = "left-column">
-            <h3>Links...</h3>
-            <ul>
-            <li> <a href="http://www.w3schools.com/">Reference: W3Schools</a></li>
-            <li> <a href="feedback.html">Feedback Form</a></li>
-            <li> <a href="video.html">Video</a></li>
-            </ul>
+                    <div class = "centered"><pre>R     S</pre></div>
+                    <img src="Snapchat-1173430696.png"  class = logo>
+
+                    <a href="#contact" class = "btn">Contact Me</a>
+                    <a href="projects.html" class = "btn">Projects</a>
+            </div>
         </div>
-        <div id = "right-column">
-            <h2>Right Column Heading Here </h2>
-            <p>Right Column content here </p>
-            <div class="box"><p>Box content</p></div>
-            <div class="box"><p>Box content</p></div>
-            <div class="box"><p>Box content</p></div>
-            <div class="box"><p>Box content</p></div>
-            <div class="box"><p>Box content</p></div>
-            <div class="box"><p>Box content</p></div>
+    </header>
+    <section id = "home">
+        <div class = "home container">
+            <div>
+                <h2>Hello, My Name Is</h2>
+                <h1>Raj Sathiyakumar</h1>
+            </div>
         </div>
-        <div class="clear"></div>
-        <div id = "footer">
-            <h5>Site by Raj</h5>
+    </section>
+
+    <footer id = "footer">
+        <div class = "footer container">
+                <img src="Snapchat-1173430696.png" class = "logo">
+                <h3>
+                    Raj Sathiyakumar
+                </h3>
+                <h3>
+                    Email: rajevan.sathiyakumar@ontariotechu.net
+                </h3>
+                <h5>
+                    © 2024 by Raj Sathiyakumar
+                </h5>
+            </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
