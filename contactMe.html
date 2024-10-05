@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <style>
+        .logo {
+            width: 5%;
+            
+        }
+        .centered{
+            position: absolute;
+            top: 3%;
+            left: 8.2%;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header id = "header">
+        <div class = "header container">
+            <div class = "navBar">
+                    <a href="index.html" class = "btn">Home</a>
+                    <a href="aboutMe.html" class = "btn">About Me</a>
+
+                    <div class = "centered"><pre>R     S</pre></div>
+                    <img src="Snapchat-1173430696.png"  class = logo>
+
+                    <a href="contactMe.html" class = "btn">Contact Me</a>
+                    <a href="projects.html" class = "btn">Projects</a>
+            </div>
+        </div>
+    </header>
+
+    <div class = "contactContainer">
+        <div>
+            <h1 class = "title">Contact Me</h1>
+        </div>
+
+        <img src="contact.png" class = "logo">
+
+        <form action="mailto:rajevan.sathiyakumar@ontariotechu.net" method="post" enctype="text/plain" ?subject = Mistakes  name = "form">
+            <p>
+                <label for="name">Full Name: </label>
+                <input type="text" name="name" placeholder="Enter full name" size = "32" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name = "email" placeholder="Enter email" size="32" required>
+            </p>
+
+            <p>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </p>
+
+            <p>
+                <label for="comments">Comments/Message:</label>
+                <br><br>
+                <textarea name="comments" placeholder="Comments" cols="40" rows="8"></textarea>
+            </p>
+
+            <p>
+                <input type="checkbox" name = "like">
+                <label for="like">Check if you think I am a good and kind person.</label>
+            </p>
+
+            <p>
+                <input type="submit" value="Click to submit the form.">
+            </p>
+
+            <p>
+                <input type="reset" value="Click to reset the form.">
+            </p>
+        </form>
+    </div>
+
+    <footer id = "footer"></footer>
+        <div id = "footer container">
+                <img src="Snapchat-1173430696.png" class = "logo">
+                <h3>
+                    Raj Sathiyakumar
+                </h3>
+                <h3>
+                    Email: rajevan.sathiyakumar@ontariotechu.net
+                </h3>
+                <h5>
+                    © 2024 by Raj Sathiyakumar
+                </h5>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
