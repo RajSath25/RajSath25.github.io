@@ -54,7 +54,7 @@ body{
     font-size: 2.5rem;
     color: blueviolet;
     text-align: center;
-    padding-top: 145%;
+    padding-top: 160%;
 }
 
 .image{
@@ -90,9 +90,9 @@ body{
 }
 
 .leftCol .aboutImage {
-    width: 30%;
+    width: 50%;
     margin-top: 80%;
-    margin-left: 30%;
+    margin-left: 50%;
 }
 
 .vid{
