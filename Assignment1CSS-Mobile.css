@@ -68,7 +68,7 @@ body{
     width: 50%;
     height: 450px;
     background-color: cadetblue;
-    padding-top: 40%;
+    padding-top: 85%;
 }
 
 .leftCol {
@@ -76,7 +76,7 @@ body{
     width: 50%;
     height: 610px;
     background-color: cadetblue;
-    padding-top: 35%;
+    padding-top: 80%;
 }
 
 .rightCol h1 {
