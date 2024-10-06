@@ -39,7 +39,7 @@ body{
 }
 
 .homeContainer {
-    height: 650px;
+    height: 750px;
     padding: 10% 30%;
     background-color: aqua;
 }
@@ -65,7 +65,7 @@ body{
 
 .rightCol {
     float: right;
-    width: 50%;
+    width: 60%;
     height: 450px;
     background-color: cadetblue;
     padding-top: 85%;
@@ -73,7 +73,7 @@ body{
 
 .leftCol {
     float: left;
-    width: 50%;
+    width: 60%;
     height: 610px;
     background-color: cadetblue;
     padding-top: 80%;
@@ -101,7 +101,7 @@ body{
 }
 
 .vid video{
-    padding-left: 30%;
+    padding-left: 10%;
 }
 
 .vid button {
