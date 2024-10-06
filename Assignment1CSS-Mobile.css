@@ -54,7 +54,7 @@ body{
     font-size: 2.5rem;
     color: blueviolet;
     text-align: center;
-    padding-top: 125%;
+    padding-top: 135%;
 }
 
 .image{
@@ -65,7 +65,7 @@ body{
 
 .rightCol {
     float: right;
-    width: 70%;
+    width: 60%;
     height: 950px;
     background-color: cadetblue;
     padding-top: 85%;
