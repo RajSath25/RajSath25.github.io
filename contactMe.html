@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="Assignment1CSS-FullScreen.css" media="only screen and
+    (min-width:960px)">
+    <link rel="stylesheet" href="Assignment1CSS-Tablet.css" media="only screen and
+    (min-width:481px) and (max-width:960px)">
+    <link rel="stylesheet" href="Assignment1CSS-Mobile.css" media="only screen and
+    (max-width:480px)">
 
-    <style>
-        .logo {
-            width: 5%;
-            
-        }
-    </style>
+
 </head>
 <body>
     <header id = "header">
@@ -36,22 +37,22 @@
 
         <form action="mailto:rajevan.sathiyakumar@ontariotechu.net" method="post" enctype="text/plain" ?subject = Mistakes  name = "form">
             <p>
-                <label for="name">Full Name: </label>
+                <label for="name">Full Name</label> <br>
                 <input type="text" name="name" placeholder="Enter full name" size = "32" required>
             </p>
 
             <p>
-                <label for="email">Email:</label>
+                <label for="email">Email</label> <br>
                 <input type="email" name = "email" placeholder="Enter email" size="32" required>
             </p>
 
             <p>
-                <label for="phone">Phone Number:</label>
+                <label for="phone">Phone Number</label> <br>
                 <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
             </p>
 
             <p>
-                <label for="comments">Comments/Message:</label>
+                <label for="comments">Comments/Message</label>
                 <br><br>
                 <textarea name="comments" placeholder="Comments" cols="40" rows="8"></textarea>
             </p>
@@ -71,19 +72,18 @@
         </form>
     </div>
 
-    <footer id = "footer"></footer>
-        <div id = "footer container">
-                <img src="Snapchat-1173430696.png" class = "logo">
-                <h3>
-                    Raj Sathiyakumar
-                </h3>
-                <h3>
-                    Email: rajevan.sathiyakumar@ontariotechu.net
-                </h3>
-                <h5>
-                    © 2024 by Raj Sathiyakumar
-                </h5>
-            </div>
+    <footer id = "footer">
+        <div class = "footerContainer">
+            <img src="Snapchat-1173430696.png" class = "logo">
+            <h3>
+                Raj Sathiyakumar
+            </h3>
+            <h3>
+                Email: rajevan.sathiyakumar@ontariotechu.net
+            </h3>
+            <h5>
+                © 2024 by Raj Sathiyakumar
+            </h5>
         </div>
     </footer>
 </body>

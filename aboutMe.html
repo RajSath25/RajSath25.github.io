@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="Assignment1CSS-FullScreen.css" media="only screen and
+    (min-width:960px)" >
+    <link rel="stylesheet" href="Assignment1CSS-Tablet.css" media="only screen and
+    (min-width:481px) and (max-width:960px)">
+    <link rel="stylesheet" href="Assignment1CSS-Mobile.css" media="only screen and
+    (max-width:480px)">
 
-    <style>
-        .aboutImage {
-            width: 10%;
-        }
-        .logo {
-            width: 5%;
-            
-        }
-    </style>
+
 </head>
 <body>
     <header id = "header">
@@ -31,56 +29,54 @@
     </header>
 
 
-    <div class = "about section container">
-        <div class = "leftCol">
-            <img src="Snapchat-1173430696.png" class = aboutImage>
-        </div>
-        <div class = rightCol>
-            <h1 class = "title">About <span>Me</span></h1>
-            <article>
-                <p>
-                    I am a 2nd-year student at OntarioTech University, studying Technology Management. 
-                </p>
-                <p> 
-                    I like to code a lot and have always had a interest in coding several programming languages.
-                </p>
-                <p>
-                    I am also good at making crafts.
-                </p>
-            </article>
-            <video width="360" height="203" controls poster="portfolio.png" preload="auto" id = "video">
-                <source src="Portfolio.mp4" type="video/mp4">
-            </video>
-            <br><br>
-            <button onclick="playPause()">Play or pause the video</button>
+    <div class = "leftCol">
+        <img src="Snapchat-1173430696.png" class = aboutImage>
+    </div>
+    <div class = rightCol>
+        <h1 class = "title">About <span>Me</span></h1>
+        <article>
+            <p>
+                I am a 2nd-year student at OntarioTech University, studying Technology Management. 
+            </p>
+            <p> 
+                I like to code a lot and have always had a interest in coding several programming languages.
+            </p>
+            <p>
+                I am also good at making crafts.
+            </p>
+        </article>
+    </div>
+    <div class = "vid">
+        <video width="360" height="203" controls poster="portfolio.png" preload="auto" id = "video">
+            <source src="Portfolio.mp4" type="video/mp4">
+        </video>
+        <br>
+        <button onclick="playPause()">Play or pause the video</button>
 
-            <script>
-                var myVideo=document.getElementById("video");
-                function playPause()
-                {
-                    if (myVideo.paused)
-                        myVideo.play();
-                    else myVideo.pause();
-                }
-            </script>
-        </div>
+        <script>
+            var myVideo=document.getElementById("video");
+            function playPause()
+            {
+                if (myVideo.paused)
+                    myVideo.play();
+                else myVideo.pause();
+            }
+        </script>
     </div>
 
 
-
-    <footer id = "footer"></footer>
-        <div id = "footer container">
-                <img src="Snapchat-1173430696.png" class = "logo">
-                <h3>
-                    Raj Sathiyakumar
-                </h3>
-                <h3>
-                    Email: rajevan.sathiyakumar@ontariotechu.net
-                </h3>
-                <h5>
-                    © 2024 by Raj Sathiyakumar
-                </h5>
-            </div>
+    <footer id = "footer">
+        <div class = "footerContainer">
+            <img src="Snapchat-1173430696.png" class = "logo">
+            <h3>
+                Raj Sathiyakumar
+            </h3>
+            <h3>
+                Email: rajevan.sathiyakumar@ontariotechu.net
+            </h3>
+            <h5>
+                © 2024 by Raj Sathiyakumar
+            </h5>
         </div>
     </footer>
 </body>

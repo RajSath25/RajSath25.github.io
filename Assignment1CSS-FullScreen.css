@@ -38,10 +38,6 @@ body{
     font-family: Impact, sans-serif;
 }
 
-.homeImage {
-    width: 10%;
-}
-
 .homeContainer {
     height: 450px;
     padding: 10% 30%;
@@ -66,6 +62,150 @@ body{
     margin-left: 25%;
 }
 
+
+.rightCol {
+    float: right;
+    width: 50%;
+    height: 450px;
+    background-color: cadetblue;
+    padding-top: 10%;
+}
+
+.leftCol {
+    float: left;
+    width: 50%;
+    height: 610px;
+    background-color: cadetblue;
+}
+
+.rightCol h1 {
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+.rightCol p {
+    font-size: 1.5rem;
+    color: beige;
+}
+
+.leftCol .aboutImage {
+    width: 30%;
+    margin-top: 30%;
+    margin-left: 30%;
+}
+
+.vid{
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.vid video{
+    padding-left: 40%;
+}
+
+.vid button {
+    margin-left: 47.5%;
+}
+
+.projectsContainer {
+    background-color: darkcyan;
+    height: 1350px;
+}
+
+.projectsContainer h1{
+    font-size: 3rem;
+    color: blueviolet;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.projectsContainer .projects .proj .projImg {
+    width: 5%;
+    margin-left: 47.5%;
+    border: 3px solid green;
+}
+
+.projectsContainer .projects .proj .projImg2 {
+    width: 10%;
+    margin-left: 45.5%;
+    border: 3px solid green;
+}
+
+.projectsContainer .projects .proj .projImg3 {
+    width: 15%;
+    margin-left: 43.5%;
+    border: 3px solid green;
+}
+
+.projectsContainer .projects .proj .projDetails h3 {
+    font-size: 2rem;
+    color: chocolate;
+    text-align: center;
+}
+
+.projectsContainer .projects .proj .projDetails p {
+    font-size: 1.5rem;
+    color: beige;
+    text-align: center;
+}
+
+.contactContainer {
+    background-color: darkturquoise;
+}
+.contactContainer h1{
+    font-size: 3rem;
+    color: blueviolet;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.contactContainer .logo{
+    width: 5%;
+    margin-left: 47.5%;
+    border: 3px solid green;
+}
+
+.contactContainer p label[for = "name"], label[for = "email"], label[for = "phone"], label[for = "comments"]   {
+    margin-left: 47.5%;
+    font-size: 1.5rem;
+    color: crimson;
+}
+
+.contactContainer p label[for = "like"]{
+    font-size: 1.5rem;
+    color: crimson;
+}
+
+.contactContainer p input[type = "text"], textarea {
+    width: 50%;
+    border: 3px solid green;
+    margin-left: 25%;
+}
+
+.contactContainer p input[type = "email"] {
+    width: 50%;
+    border: 3px solid green;
+    margin-left: 25%;
+}
+
+.contactContainer p input[type = "tel"]{
+    width: 50%;
+    border: 3px solid green;
+    margin-left: 25%;
+}
+
+.contactContainer p input[type = "checkbox"]{
+    margin-left: 42%;
+}
+
+.contactContainer p input[type = "submit"] {
+    margin-left: 47.5%;
+}
+
+.contactContainer p input[type = "reset"] {
+    margin-left: 47.5%;
+}
+
 #footer .footerContainer {
     background-color: coral;
 }
@@ -79,3 +219,9 @@ body{
     color: green;
     text-align: center;
 }
+
+#footer .footerContainer h5{
+    font-size: 1rem;
+    color: darkblue;
+}
+
